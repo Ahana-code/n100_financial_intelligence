@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
 
 from src.dashboard.utils.db import (
     get_companies,
@@ -78,6 +79,67 @@ col6.metric(
     "Average Interest Coverage",
     f"{ratios['interest_coverage'].mean():.2f}"
 )
+
+st.divider()
+
+# ---------------- AI Analytics Summary ---------------- #
+
+st.subheader("🤖 AI Analytics Summary")
+
+health_file = "output/company_health_score.xlsx"
+recommendation_file = "output/investment_recommendation.xlsx"
+cluster_file = "output/company_clusters.xlsx"
+
+if (
+    os.path.exists(health_file)
+    and os.path.exists(recommendation_file)
+    and os.path.exists(cluster_file)
+):
+
+    health = pd.read_excel(health_file)
+    recommendation = pd.read_excel(recommendation_file)
+    clusters = pd.read_excel(cluster_file)
+
+    strong_buy = (
+        recommendation["Recommendation"] == "Strong Buy"
+    ).sum()
+
+    strong_companies = (
+        health["Investment_Grade"] == "Strong"
+    ).sum()
+
+    high_growth = (
+        clusters["cluster_name"] == "High Growth"
+    ).sum()
+
+    stable_compounders = (
+        clusters["cluster_name"] == "Stable Compounders"
+    ).sum()
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    c1.metric(
+        "Strong Buy",
+        strong_buy
+    )
+
+    c2.metric(
+        "Strong Companies",
+        strong_companies
+    )
+
+    c3.metric(
+        "High Growth",
+        high_growth
+    )
+
+    c4.metric(
+        "Stable Compounders",
+        stable_compounders
+    )
+
+else:
+    st.info("AI analytics reports have not been generated yet.")
 
 st.divider()
 

@@ -13,6 +13,10 @@ st.title("👥 Peer Comparison")
 
 companies = get_companies()
 
+health = pd.read_excel("output/company_health_score.xlsx")
+recommendation = pd.read_excel("output/investment_recommendation.xlsx")
+clusters = pd.read_excel("output/company_clusters.xlsx")
+
 company_map = dict(
     zip(
         companies["company_name"],
@@ -79,6 +83,33 @@ else:
 
         latest = ratios.iloc[-1]
 
+        health_row = health[health["id"] == peer_id]
+
+        if not health_row.empty:
+            health_score = health_row.iloc[0]["Health_Score"]
+            grade = health_row.iloc[0]["Investment_Grade"]
+        else:
+            health_score = None
+            grade = "N/A"
+
+        rec_row = recommendation[
+            recommendation["id"] == peer_id
+        ]
+
+        if not rec_row.empty:
+            rec = rec_row.iloc[0]["Recommendation"]
+        else:
+            rec = "N/A"
+
+        cluster_row = clusters[
+            clusters["id"] == peer_id
+        ]
+
+        if not cluster_row.empty:
+            cluster = cluster_row.iloc[0]["cluster_name"]
+        else:
+            cluster = "N/A"
+
         rows.append({
 
             "Company":
@@ -97,7 +128,19 @@ else:
             latest["debt_to_equity"],
 
             "Net Profit Margin (%)":
-            latest["net_profit_margin_pct"]
+            latest["net_profit_margin_pct"],
+
+            "Health Score":
+            health_score,
+
+            "Investment Grade":
+            grade,
+
+            "Recommendation":
+            rec,
+
+            "Cluster":
+            cluster
 
         })
 

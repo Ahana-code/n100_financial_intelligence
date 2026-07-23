@@ -1,0 +1,389 @@
+company_id,type,rule_id,text,confidence_pct
+ABB,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ABB,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+ABB,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ABB,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ABB,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+ADANIENSOL,con,CON_01,Debt-to-equity ratio of 2.93 is elevated and warrants monitoring.,92
+ADANIENSOL,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+ADANIENSOL,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ADANIENSOL,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+ADANIENT,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+ADANIENT,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+ADANIENT,pro,DEFAULT_PRO,Company has an established operating business.,60
+ADANIGREEN,con,CON_01,Debt-to-equity ratio of 6.60 is elevated and warrants monitoring.,92
+ADANIGREEN,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+ADANIGREEN,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+ADANIPORTS,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ADANIPORTS,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ADANIPORTS,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+ADANIPOWER,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ADANIPOWER,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+ADANIPOWER,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ADANIPOWER,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+AMBUJACEM,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+AMBUJACEM,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+APOLLOHOSP,con,DEFAULT_CON,Further financial analysis is recommended.,60
+APOLLOHOSP,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+APOLLOHOSP,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+ASIANPAINT,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ASIANPAINT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+ASIANPAINT,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ASIANPAINT,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ASIANPAINT,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+ATGL,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ATGL,pro,DEFAULT_PRO,Company has an established operating business.,60
+AXISBANK,con,CON_01,Debt-to-equity ratio of 8.25 is elevated and warrants monitoring.,92
+AXISBANK,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+AXISBANK,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+BAJAJ-AUTO,con,DEFAULT_CON,Further financial analysis is recommended.,60
+BAJAJ-AUTO,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+BAJAJ-AUTO,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+BAJAJ-AUTO,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BAJAJ-AUTO,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+BAJAJFINSV,con,CON_01,Debt-to-equity ratio of 4.79 is elevated and warrants monitoring.,92
+BAJAJFINSV,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+BAJAJFINSV,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+BAJAJFINSV,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+BAJAJHLDNG,con,DEFAULT_CON,Further financial analysis is recommended.,60
+BAJAJHLDNG,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+BAJAJHLDNG,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+BAJAJHLDNG,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BAJFINANCE,con,CON_01,Debt-to-equity ratio of 3.82 is elevated and warrants monitoring.,92
+BAJFINANCE,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+BAJFINANCE,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+BAJFINANCE,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BANKBARODA,con,CON_01,Debt-to-equity ratio of 12.14 is elevated and warrants monitoring.,92
+BANKBARODA,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+BANKBARODA,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+BEL,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+BEL,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+BEL,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BHARTIARTL,con,CON_01,Debt-to-equity ratio of 2.61 is elevated and warrants monitoring.,92
+BHARTIARTL,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+BHARTIARTL,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+BHARTIARTL,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+BHEL,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+BHEL,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+BHEL,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+BHEL,pro,DEFAULT_PRO,Company has an established operating business.,60
+BOSCHLTD,con,DEFAULT_CON,Further financial analysis is recommended.,60
+BOSCHLTD,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+BOSCHLTD,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+BOSCHLTD,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BOSCHLTD,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+BPCL,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+BPCL,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+BPCL,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+BPCL,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BPCL,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+BRITANNIA,con,DEFAULT_CON,Further financial analysis is recommended.,60
+BRITANNIA,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+BRITANNIA,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+BRITANNIA,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+BRITANNIA,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+CANBK,con,CON_01,Debt-to-equity ratio of 14.87 is elevated and warrants monitoring.,92
+CANBK,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+CANBK,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+CHOLAFIN,con,CON_01,Debt-to-equity ratio of 6.86 is elevated and warrants monitoring.,92
+CHOLAFIN,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+CHOLAFIN,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+CHOLAFIN,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+CIPLA,con,DEFAULT_CON,Further financial analysis is recommended.,60
+CIPLA,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+CIPLA,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+CIPLA,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+CIPLA,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+COALINDIA,con,DEFAULT_CON,Further financial analysis is recommended.,60
+COALINDIA,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+COALINDIA,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+COALINDIA,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+COALINDIA,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+COALINDIA,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+DABUR,con,DEFAULT_CON,Further financial analysis is recommended.,60
+DABUR,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+DABUR,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+DABUR,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+DIVISLAB,con,DEFAULT_CON,Further financial analysis is recommended.,60
+DIVISLAB,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+DIVISLAB,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+DIVISLAB,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+DIVISLAB,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+DLF,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+DLF,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+DLF,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+DLF,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+DMART,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+DMART,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+DMART,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+DRREDDY,con,DEFAULT_CON,Further financial analysis is recommended.,60
+DRREDDY,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+DRREDDY,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+DRREDDY,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+EICHERMOT,con,DEFAULT_CON,Further financial analysis is recommended.,60
+EICHERMOT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+EICHERMOT,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+EICHERMOT,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+EICHERMOT,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+EICHERMOT,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+GAIL,con,DEFAULT_CON,Further financial analysis is recommended.,60
+GAIL,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+GAIL,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+GAIL,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+GODREJCP,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+GODREJCP,con,CON_04,Company reported a net loss in the latest financial year.,98
+GODREJCP,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+GODREJCP,pro,DEFAULT_PRO,Company has an established operating business.,60
+GRASIM,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+GRASIM,pro,DEFAULT_PRO,Company has an established operating business.,60
+HAL,con,DEFAULT_CON,Further financial analysis is recommended.,60
+HAL,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+HAL,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+HAL,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+HAL,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HAL,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+HAVELLS,con,DEFAULT_CON,Further financial analysis is recommended.,60
+HAVELLS,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+HAVELLS,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HAVELLS,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+HCLTECH,con,DEFAULT_CON,Further financial analysis is recommended.,60
+HCLTECH,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+HCLTECH,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+HCLTECH,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HCLTECH,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+HDFCBANK,con,CON_01,Debt-to-equity ratio of 6.81 is elevated and warrants monitoring.,92
+HDFCBANK,con,CON_05,Interest coverage below 1.5x indicates elevated debt servicing risk.,94
+HDFCBANK,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+HDFCBANK,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+HDFCBANK,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+HDFCLIFE,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+HDFCLIFE,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+HDFCLIFE,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HEROMOTOCO,con,DEFAULT_CON,Further financial analysis is recommended.,60
+HEROMOTOCO,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+HEROMOTOCO,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+HEROMOTOCO,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+HEROMOTOCO,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HEROMOTOCO,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+HINDALCO,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+HINDALCO,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+HINDALCO,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+HINDALCO,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HINDUNILVR,con,DEFAULT_CON,Further financial analysis is recommended.,60
+HINDUNILVR,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+HINDUNILVR,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+HINDUNILVR,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+HINDUNILVR,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+HINDUNILVR,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+ICICIBANK,con,CON_01,Debt-to-equity ratio of 6.45 is elevated and warrants monitoring.,92
+ICICIBANK,con,CON_05,Interest coverage below 1.5x indicates elevated debt servicing risk.,94
+ICICIBANK,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ICICIBANK,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+ICICIGI,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ICICIGI,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ICICIGI,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+ICICIGI,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ICICIGI,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+ICICIPRULI,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+ICICIPRULI,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ICICIPRULI,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+ICICIPRULI,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+INDIGO,con,DEFAULT_CON,Further financial analysis is recommended.,60
+INDIGO,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+INDIGO,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+INDIGO,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+INDIGO,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+INDUSINDBK,con,CON_01,Debt-to-equity ratio of 6.89 is elevated and warrants monitoring.,92
+INDUSINDBK,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+INDUSINDBK,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+INFY,con,DEFAULT_CON,Further financial analysis is recommended.,60
+INFY,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+INFY,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+INFY,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+IOC,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+IOC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+IOC,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+IOC,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+IOC,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+IRCTC,con,DEFAULT_CON,Further financial analysis is recommended.,60
+IRCTC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+IRCTC,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+IRCTC,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+IRCTC,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+IRCTC,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+IRFC,con,CON_01,Debt-to-equity ratio of 8.38 is elevated and warrants monitoring.,92
+IRFC,con,CON_05,Interest coverage below 1.5x indicates elevated debt servicing risk.,94
+IRFC,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+IRFC,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+IRFC,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+ITC,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ITC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+ITC,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ITC,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+ITC,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ITC,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+JINDALSTEL,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+JINDALSTEL,pro,DEFAULT_PRO,Company has an established operating business.,60
+JIOFIN,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+JIOFIN,pro,PRO_02,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,92
+JIOFIN,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+JIOFIN,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+JIOFIN,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+JSWENERGY,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+JSWENERGY,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+JSWENERGY,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+JSWSTEEL,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+JSWSTEEL,pro,DEFAULT_PRO,Company has an established operating business.,60
+KOTAKBANK,con,CON_01,Debt-to-equity ratio of 4.00 is elevated and warrants monitoring.,92
+KOTAKBANK,con,CON_05,Interest coverage below 1.5x indicates elevated debt servicing risk.,94
+KOTAKBANK,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+KOTAKBANK,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+LICI,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+LICI,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+LICI,pro,PRO_02,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,92
+LICI,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+LICI,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+LODHA,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+LODHA,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+LODHA,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+LT,con,DEFAULT_CON,Further financial analysis is recommended.,60
+LT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+LT,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+LT,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+LTIM,con,DEFAULT_CON,Further financial analysis is recommended.,60
+LTIM,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+LTIM,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+LTIM,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+LTIM,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+M&M,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+M&M,pro,DEFAULT_PRO,Company has an established operating business.,60
+MARUTI,con,DEFAULT_CON,Further financial analysis is recommended.,60
+MARUTI,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+MARUTI,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+MARUTI,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+MOTHERSON,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+MOTHERSON,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+NAUKRI,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+NAUKRI,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+NAUKRI,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+NAUKRI,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+NESTLEIND,con,DEFAULT_CON,Further financial analysis is recommended.,60
+NESTLEIND,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+NESTLEIND,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+NESTLEIND,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+NESTLEIND,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+NHPC,con,DEFAULT_CON,Further financial analysis is recommended.,60
+NHPC,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+NHPC,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+NHPC,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+NHPC,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+NTPC,con,DEFAULT_CON,Further financial analysis is recommended.,60
+NTPC,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+NTPC,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+NTPC,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+ONGC,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ONGC,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ONGC,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ONGC,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+PFC,con,CON_01,Debt-to-equity ratio of 8.52 is elevated and warrants monitoring.,92
+PFC,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+PFC,con,CON_05,Interest coverage below 1.5x indicates elevated debt servicing risk.,94
+PFC,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+PFC,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+PIDILITIND,con,DEFAULT_CON,Further financial analysis is recommended.,60
+PIDILITIND,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+PIDILITIND,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+PIDILITIND,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+PIDILITIND,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+PNB,con,CON_01,Debt-to-equity ratio of 3.68 is elevated and warrants monitoring.,92
+PNB,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+PNB,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+POWERGRID,con,DEFAULT_CON,Further financial analysis is recommended.,60
+POWERGRID,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+POWERGRID,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+POWERGRID,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+RECLTD,con,CON_01,Debt-to-equity ratio of 6.42 is elevated and warrants monitoring.,92
+RECLTD,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+RECLTD,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+RECLTD,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+RELIANCE,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+RELIANCE,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+SBILIFE,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+SBILIFE,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+SBILIFE,pro,PRO_02,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,92
+SBILIFE,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+SBIN,con,DEFAULT_CON,Further financial analysis is recommended.,60
+SBIN,pro,DEFAULT_PRO,Company has an established operating business.,60
+SHREECEM,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+SHREECEM,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+SHREECEM,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+SHRIRAMFIN,con,CON_01,Debt-to-equity ratio of 3.99 is elevated and warrants monitoring.,92
+SHRIRAMFIN,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+SHRIRAMFIN,con,CON_05,Interest coverage below 1.5x indicates elevated debt servicing risk.,94
+SHRIRAMFIN,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+SIEMENS,con,DEFAULT_CON,Further financial analysis is recommended.,60
+SIEMENS,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+SIEMENS,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+SUNPHARMA,con,DEFAULT_CON,Further financial analysis is recommended.,60
+SUNPHARMA,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+SUNPHARMA,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+SUNPHARMA,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+SUNPHARMA,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+TATACONSUM,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+TATACONSUM,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TATACONSUM,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+TATACONSUM,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+TATAMOTORS,con,DEFAULT_CON,Further financial analysis is recommended.,60
+TATAMOTORS,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+TATAMOTORS,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TATAPOWER,con,DEFAULT_CON,Further financial analysis is recommended.,60
+TATAPOWER,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TATASTEEL,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+TATASTEEL,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+TATASTEEL,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TCS,con,DEFAULT_CON,Further financial analysis is recommended.,60
+TCS,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+TCS,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TCS,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+TCS,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+TCS,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+TECHM,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+TECHM,con,CON_06,Return on equity below 10% reflects weak shareholder returns.,85
+TECHM,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TECHM,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+TECHM,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+TITAN,con,DEFAULT_CON,Further financial analysis is recommended.,60
+TITAN,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+TITAN,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TITAN,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+TORNTPHARM,con,DEFAULT_CON,Further financial analysis is recommended.,60
+TORNTPHARM,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+TORNTPHARM,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TORNTPHARM,pro,PRO_04,Operating profit margin above 25% indicates strong pricing power and cost discipline.,88
+TORNTPHARM,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+TRENT,con,DEFAULT_CON,Further financial analysis is recommended.,60
+TRENT,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+TRENT,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+TVSMOTOR,con,CON_01,Debt-to-equity ratio of 3.83 is elevated and warrants monitoring.,92
+TVSMOTOR,con,CON_02,Negative free cash flow raises concern about cash generation quality.,90
+TVSMOTOR,pro,PRO_01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95
+ULTRACEMCO,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ULTRACEMCO,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+ULTRACEMCO,pro,PRO_05,Very high interest coverage reflects negligible financial stress from debt servicing.,90
+ULTRACEMCO,pro,PRO_06,Healthy dividend payout supported by positive free cash flow.,82
+UNIONBANK,con,CON_01,Debt-to-equity ratio of 12.82 is elevated and warrants monitoring.,92
+UNIONBANK,con,CON_03,Operating margins remain weak and indicate pricing or cost pressure.,82
+UNIONBANK,con,CON_05,Interest coverage below 1.5x indicates elevated debt servicing risk.,94
+UNIONBANK,pro,PRO_03,Strong free cash flow generation signals healthy business fundamentals.,90
+UNITDSPR,con,DEFAULT_CON,Further financial analysis is recommended.,60
+UNITDSPR,pro,DEFAULT_PRO,Company has an established operating business.,60
+VBL,con,DEFAULT_CON,Further financial analysis is recommended.,60
+VBL,pro,DEFAULT_PRO,Company has an established operating business.,60
+VEDL,con,DEFAULT_CON,Further financial analysis is recommended.,60
+VEDL,pro,DEFAULT_PRO,Company has an established operating business.,60
+WIPRO,con,DEFAULT_CON,Further financial analysis is recommended.,60
+WIPRO,pro,DEFAULT_PRO,Company has an established operating business.,60
+ZOMATO,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ZOMATO,pro,DEFAULT_PRO,Company has an established operating business.,60
+ZYDUSLIFE,con,DEFAULT_CON,Further financial analysis is recommended.,60
+ZYDUSLIFE,pro,DEFAULT_PRO,Company has an established operating business.,60

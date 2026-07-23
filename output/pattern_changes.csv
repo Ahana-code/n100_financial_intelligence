@@ -1,0 +1,93 @@
+company_id,sector,Current Pattern,Previous Pattern,Pattern Changed
+ABB,Industrials,Shareholder Returns,N/A,Unknown
+ADANIENSOL,Energy,Shareholder Returns,N/A,Unknown
+ADANIENT,Industrials,Mixed,N/A,Unknown
+ADANIGREEN,Energy,Mixed,N/A,Unknown
+ADANIPORTS,Industrials,Shareholder Returns,N/A,Unknown
+ADANIPOWER,Energy,Liquidating Assets,N/A,Unknown
+AMBUJACEM,Materials,Mixed,N/A,Unknown
+APOLLOHOSP,Healthcare,Shareholder Returns,N/A,Unknown
+ASIANPAINT,Materials,Shareholder Returns,N/A,Unknown
+AXISBANK,Financials,Growth Funded by Debt,N/A,Unknown
+BAJAJ-AUTO,Consumer Discretionary,Reinvestor,N/A,Unknown
+BAJAJFINSV,Financials,Growth Funded by Debt,N/A,Unknown
+BAJAJHLDNG,Financials,Reinvestor,N/A,Unknown
+BAJFINANCE,Financials,Growth Funded by Debt,N/A,Unknown
+BANKBARODA,Financials,Growth Funded by Debt,N/A,Unknown
+BEL,Industrials,Shareholder Returns,N/A,Unknown
+BHARTIARTL,Communication Services,Shareholder Returns,N/A,Unknown
+BHEL,Industrials,Distress Signal,N/A,Unknown
+BOSCHLTD,Consumer Discretionary,Liquidating Assets,N/A,Unknown
+BPCL,Energy,Shareholder Returns,N/A,Unknown
+BRITANNIA,Consumer Staples,Liquidating Assets,N/A,Unknown
+CANBK,Financials,Reinvestor,N/A,Unknown
+CHOLAFIN,Financials,Growth Funded by Debt,N/A,Unknown
+CIPLA,Healthcare,Reinvestor,N/A,Unknown
+COALINDIA,Materials,Reinvestor,N/A,Unknown
+DABUR,Consumer Staples,Shareholder Returns,N/A,Unknown
+DIVISLAB,Healthcare,Reinvestor,N/A,Unknown
+DLF,Real Estate,Mixed,N/A,Unknown
+DMART,Consumer Discretionary,Shareholder Returns,N/A,Unknown
+DRREDDY,Healthcare,Reinvestor,N/A,Unknown
+EICHERMOT,Consumer Discretionary,Reinvestor,N/A,Unknown
+GAIL,Energy,Shareholder Returns,N/A,Unknown
+GODREJCP,Consumer Staples,Mixed,N/A,Unknown
+GRASIM,Industrials,Growth Funded by Debt,N/A,Unknown
+HAL,Industrials,Reinvestor,N/A,Unknown
+HAVELLS,Industrials,Shareholder Returns,N/A,Unknown
+HCLTECH,Information Technology,Shareholder Returns,N/A,Unknown
+HDFCBANK,Financials,Liquidating Assets,N/A,Unknown
+HDFCLIFE,Financials,Shareholder Returns,N/A,Unknown
+HEROMOTOCO,Consumer Discretionary,Shareholder Returns,N/A,Unknown
+HINDALCO,Materials,Shareholder Returns,N/A,Unknown
+HINDUNILVR,Consumer Staples,Shareholder Returns,N/A,Unknown
+ICICIBANK,Financials,Mixed,N/A,Unknown
+ICICIGI,Financials,Reinvestor,N/A,Unknown
+ICICIPRULI,Financials,Unknown,N/A,Unknown
+INDIGO,Consumer Discretionary,Shareholder Returns,N/A,Unknown
+INDUSINDBK,Financials,Pre-Revenue,N/A,Unknown
+INFY,Information Technology,Reinvestor,N/A,Unknown
+IOC,Energy,Shareholder Returns,N/A,Unknown
+IRCTC,Consumer Discretionary,Reinvestor,N/A,Unknown
+IRFC,Financials,Shareholder Returns,N/A,Unknown
+ITC,Consumer Staples,Liquidating Assets,N/A,Unknown
+JINDALSTEL,Materials,Mixed,N/A,Unknown
+JIOFIN,Financials,Unknown,N/A,Unknown
+JSWENERGY,Energy,Mixed,N/A,Unknown
+JSWSTEEL,Materials,Shareholder Returns,N/A,Unknown
+KOTAKBANK,Financials,Mixed,N/A,Unknown
+LICI,Financials,Reinvestor,N/A,Unknown
+LODHA,Real Estate,Mixed,N/A,Unknown
+LT,Industrials,Liquidating Assets,N/A,Unknown
+LTIM,Information Technology,Shareholder Returns,N/A,Unknown
+M&M,Consumer Discretionary,Growth Funded by Debt,N/A,Unknown
+MARUTI,Consumer Discretionary,Shareholder Returns,N/A,Unknown
+MOTHERSON,Consumer Discretionary,Mixed,N/A,Unknown
+NAUKRI,Communication Services,Mixed,N/A,Unknown
+NESTLEIND,Consumer Staples,Shareholder Returns,N/A,Unknown
+NHPC,Energy,Shareholder Returns,N/A,Unknown
+NTPC,Energy,Shareholder Returns,N/A,Unknown
+ONGC,Energy,Shareholder Returns,N/A,Unknown
+PFC,Financials,Growth Funded by Debt,N/A,Unknown
+PIDILITIND,Materials,Shareholder Returns,N/A,Unknown
+PNB,Financials,Growth Funded by Debt,N/A,Unknown
+POWERGRID,Energy,Shareholder Returns,N/A,Unknown
+RECLTD,Financials,Growth Funded by Debt,N/A,Unknown
+RELIANCE,Energy,Shareholder Returns,N/A,Unknown
+SBILIFE,Financials,Shareholder Returns,N/A,Unknown
+SHREECEM,Materials,Shareholder Returns,N/A,Unknown
+SHRIRAMFIN,Financials,Growth Funded by Debt,N/A,Unknown
+SIEMENS,Industrials,Reinvestor,N/A,Unknown
+SUNPHARMA,Healthcare,Shareholder Returns,N/A,Unknown
+TATACONSUM,Consumer Staples,Mixed,N/A,Unknown
+TATAMOTORS,Consumer Discretionary,Shareholder Returns,N/A,Unknown
+TATAPOWER,Energy,Shareholder Returns,N/A,Unknown
+TATASTEEL,Materials,Shareholder Returns,N/A,Unknown
+TCS,Information Technology,Liquidating Assets,N/A,Unknown
+TECHM,Information Technology,Shareholder Returns,N/A,Unknown
+TITAN,Consumer Discretionary,Reinvestor,N/A,Unknown
+TORNTPHARM,Healthcare,Shareholder Returns,N/A,Unknown
+TRENT,Consumer Discretionary,Reinvestor,N/A,Unknown
+TVSMOTOR,Consumer Discretionary,Growth Funded by Debt,N/A,Unknown
+ULTRACEMCO,Unknown,Shareholder Returns,N/A,Unknown
+UNIONBANK,Unknown,Shareholder Returns,N/A,Unknown

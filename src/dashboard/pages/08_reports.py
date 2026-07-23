@@ -1,116 +1,90 @@
 import streamlit as st
 import pandas as pd
-from src.dashboard.utils.db import (
-    get_companies,
-    get_ratios,
-    get_pl,
-    get_bs,
-    get_cf
-)
+from pathlib import Path
 
-st.title("📄 Company Report")
+st.title("📑 Reports & Downloads")
 
-companies = get_companies()
+st.markdown("Download all generated analytics reports.")
 
-company_map = dict(
-    zip(
-        companies["company_name"],
-        companies["id"]
-    )
-)
+OUTPUT = Path("output")
+REPORTS = Path("reports")
 
-selected_company = st.selectbox(
-    "Select Company",
-    sorted(company_map.keys())
-)
+files = [
+    ("Stock Screener", OUTPUT / "screener_output.xlsx"),
+    ("Peer Comparison", OUTPUT / "peer_comparison.xlsx"),
+    ("Cashflow Intelligence", OUTPUT / "cashflow_intelligence.xlsx"),
+    ("Company Clusters", OUTPUT / "company_clusters.xlsx"),
+    ("Company Health Score", OUTPUT / "company_health_score.xlsx"),
+    ("Revenue Forecast", OUTPUT / "revenue_forecast.xlsx"),
+    ("Investment Recommendation", OUTPUT / "investment_recommendation.xlsx"),
+    ("Backtest Validation", OUTPUT / "backtest_validation.xlsx"),
+]
 
-ticker = company_map[selected_company]
+st.subheader("Excel Reports")
 
-company = companies[
-    companies["id"] == ticker
-].iloc[0]
+for title, file in files:
 
-st.header(company["company_name"])
+    if file.exists():
 
-st.subheader("Company Information")
+        with open(file, "rb") as f:
+            st.download_button(
+                label=f"⬇ Download {title}",
+                data=f,
+                file_name=file.name,
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            )
 
-info = pd.DataFrame({
-    "Field": [
-        "Company ID",
-        "Face Value",
-        "Book Value",
-        "ROCE",
-        "ROE"
-    ],
-    "Value": [
-        company["id"],
-        company["face_value"],
-        company["book_value"],
-        f"{company['roce_percentage']}%",
-        f"{company['roe_percentage']}%"
-    ]
-})
+    else:
 
-st.table(info)
-
-ratios = get_ratios(ticker)
-pl = get_pl(ticker)
-bs = get_bs(ticker)
-cf = get_cf(ticker)
+        st.warning(f"{title} not found.")
 
 st.divider()
 
-st.subheader("Financial Ratios")
+st.subheader("Charts")
 
-if not ratios.empty:
-    st.dataframe(
-        ratios.sort_values("year", ascending=False),
-        use_container_width=True
-    )
-else:
-    st.info("No Financial Ratios available.")
+chart_files = [
+    ("Cluster Distribution", REPORTS / "cluster_distribution.png"),
+    ("Revenue Forecast", REPORTS / "revenue_forecast.png"),
+]
 
-st.divider()
+for title, chart in chart_files:
 
-st.subheader("Profit & Loss")
+    if chart.exists():
 
-if not pl.empty:
-    st.dataframe(
-        pl.sort_values("year", ascending=False),
-        use_container_width=True
-    )
-else:
-    st.info("No Profit & Loss data available.")
+        st.markdown(f"### {title}")
+        st.image(str(chart), use_container_width=True)
+
+    else:
+
+        st.info(f"{title} chart not available.")
 
 st.divider()
 
-st.subheader("Balance Sheet")
+st.subheader("Quick Preview")
 
-if not bs.empty:
-    st.dataframe(
-        bs.sort_values("year", ascending=False),
-        use_container_width=True
-    )
-else:
-    st.info("No Balance Sheet data available.")
+preview_files = {
+    "Company Health Score": OUTPUT / "company_health_score.xlsx",
+    "Investment Recommendation": OUTPUT / "investment_recommendation.xlsx",
+    "Revenue Forecast": OUTPUT / "revenue_forecast.xlsx",
+    "Backtest Validation": OUTPUT / "backtest_validation.xlsx",
+}
 
-st.divider()
-
-st.subheader("Cash Flow")
-
-if not cf.empty:
-    st.dataframe(
-        cf.sort_values("year", ascending=False),
-        use_container_width=True
-    )
-else:
-    st.info("No Cash Flow data available.")
-
-csv = ratios.to_csv(index=False).encode("utf-8")
-
-st.download_button(
-    "📥 Download Financial Ratios CSV",
-    data=csv,
-    file_name=f"{ticker}_financial_ratios.csv",
-    mime="text/csv"
+selected = st.selectbox(
+    "Preview Report",
+    list(preview_files.keys())
 )
+
+file = preview_files[selected]
+
+if file.exists():
+
+    df = pd.read_excel(file)
+
+    st.dataframe(
+        df.head(20),
+        use_container_width=True
+    )
+
+else:
+
+    st.warning("Report not found.")

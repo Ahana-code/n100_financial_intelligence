@@ -10,6 +10,10 @@ st.title("📊 Stock Screener")
 
 companies = get_companies()
 
+# Load AI outputs
+health = pd.read_excel("output/company_health_score.xlsx")
+recommendation = pd.read_excel("output/investment_recommendation.xlsx")
+
 records = []
 
 for ticker in companies["id"]:
@@ -23,13 +27,31 @@ for ticker in companies["id"]:
 
     company = companies[companies["id"] == ticker].iloc[0]
 
+    # Health Score
+    health_row = health[health["id"] == ticker]
+
+    if not health_row.empty:
+        health_score = health_row.iloc[0]["Health_Score"]
+    else:
+        health_score = None
+
+    # Recommendation
+    rec_row = recommendation[recommendation["id"] == ticker]
+
+    if not rec_row.empty:
+        rec = rec_row.iloc[0]["Recommendation"]
+    else:
+        rec = "N/A"
+
     records.append({
         "Company": company["company_name"],
         "Ticker": ticker,
         "ROE (%)": latest["return_on_equity_pct"],
         "Debt/Equity": latest["debt_to_equity"],
         "Net Profit Margin (%)": latest["net_profit_margin_pct"],
-        "Interest Coverage": latest["interest_coverage"]
+        "Interest Coverage": latest["interest_coverage"],
+        "Health Score": health_score,
+        "Recommendation": rec
     })
 
 screen = pd.DataFrame(records)
