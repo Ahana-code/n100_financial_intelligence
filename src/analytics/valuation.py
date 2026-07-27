@@ -88,10 +88,38 @@ if __name__ == "__main__":
 
     df = calculate_metrics(df)
 
-    print(df.info())
+    valuation = df[
+        [
+            "id",
+            "company_name",
+            "broad_sector",
+            "year",
+            "book_value",
+            "earnings_per_share",
+            "free_cash_flow_cr",
+            "FCF_Yield",
+            "roe_percentage",
+            "ROE_Class"
+        ]
+    ].copy()
 
-print(df.head(20))
+    valuation.rename(
+        columns={
+            "id": "Ticker",
+            "company_name": "Company",
+            "broad_sector": "Sector",
+            "year": "Year",
+            "book_value": "Book Value",
+            "earnings_per_share": "EPS",
+            "free_cash_flow_cr": "Free Cash Flow (Cr)",
+            "roe_percentage": "ROE (%)"
+        },
+        inplace=True
+    )
 
-print("\nMissing values:\n")
+    valuation.to_excel(
+        "output/valuation_summary.xlsx",
+        index=False
+    )
 
-print(df.isna().sum())
+    print("valuation_summary.xlsx created successfully!")

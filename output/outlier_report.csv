@@ -1,0 +1,6 @@
+company_id,company_name,sector,metric,z_score
+TRENT,Trent Ltd,Consumer Discretionary,fcf_cagr_5yr,3.27
+ADANIGREEN,Adani Green Energy Ltd,Energy,debt_to_equity,3.14
+LICI,Life Insurance Corporation of India,Financials,roe_percentage,4.15
+KOTAKBANK,"Kotak Mahindra Bank Ltd
+",Financials,fcf_cagr_5yr,3.18

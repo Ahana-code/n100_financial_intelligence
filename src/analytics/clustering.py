@@ -4,6 +4,7 @@ import warnings
 
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 from sklearn.cluster import KMeans
@@ -288,6 +289,35 @@ scaled_data = scaler.fit_transform(
     cluster_df[features]
 )
 
+# -----------------------------
+# Elbow Plot
+# -----------------------------
+inertia = []
+
+for k in range(2, 11):
+    model = KMeans(
+        n_clusters=k,
+        random_state=42,
+        n_init=10
+    )
+    model.fit(scaled_data)
+    inertia.append(model.inertia_)
+
+plt.figure(figsize=(7,5))
+plt.plot(range(2,11), inertia, marker="o")
+plt.xlabel("Number of Clusters (k)")
+plt.ylabel("Inertia")
+plt.title("KMeans Elbow Plot")
+plt.grid(True)
+
+plt.tight_layout()
+plt.savefig(
+    os.path.join(
+        REPORT_DIR,
+        "elbow_plot.png"
+    )
+)
+plt.close()
 
 # -----------------------------
 # KMeans
@@ -296,13 +326,19 @@ scaled_data = scaler.fit_transform(
 print("Running KMeans...")
 
 kmeans = KMeans(
-    n_clusters=4,
+    n_clusters=5,
     random_state=42,
     n_init=10
 )
 
 cluster_df["cluster"] = kmeans.fit_predict(
     scaled_data
+)
+# Distance from centroid
+cluster_df["distance_from_centroid"] = (
+    kmeans.transform(scaled_data)
+    .min(axis=1)
+    .round(4)
 )
 
 
@@ -314,7 +350,8 @@ cluster_names = {
     0: "Stable Compounders",
     1: "High Growth",
     2: "Value Picks",
-    3: "Turnaround / Risk"
+    3: "Turnaround / Risk",
+    4: "Defensive"
 }
 
 cluster_df["cluster_name"] = (
@@ -334,7 +371,25 @@ cluster_df.to_excel(
     ),
     index=False
 )
-
+cluster_df[
+    [
+        "id",
+        "cluster",
+        "cluster_name",
+        "distance_from_centroid"
+    ]
+].rename(
+    columns={
+        "id": "company_id",
+        "cluster": "cluster_id"
+    }
+).to_csv(
+    os.path.join(
+        OUTPUT_DIR,
+        "cluster_labels.csv"
+    ),
+    index=False
+)
 print("\nCompany Clusters Generated Successfully!\n")
 
 print(
@@ -374,3 +429,95 @@ plt.savefig(
 plt.close()
 
 print("\nCluster chart saved successfully.")
+
+
+# -----------------------------
+# Correlation Heatmap
+# -----------------------------
+plt.figure(figsize=(8,6))
+
+sns.heatmap(
+    cluster_df[features].corr(),
+    annot=True,
+    cmap="coolwarm",
+    fmt=".2f"
+)
+
+plt.title("Correlation Heatmap")
+
+plt.tight_layout()
+
+plt.savefig(
+    os.path.join(
+        REPORT_DIR,
+        "correlation_heatmap.png"
+    )
+)
+
+plt.close()
+
+# -----------------------------
+# Outlier Report
+# -----------------------------
+outliers = []
+
+for sector, grp in cluster_df.groupby("broad_sector"):
+
+    temp = grp.copy()
+
+    for col in features:
+
+        std = temp[col].std()
+
+        if std == 0 or pd.isna(std):
+            continue
+
+        z = (temp[col] - temp[col].mean()) / std
+
+        flagged = temp[abs(z) > 3]
+
+        for _, row in flagged.iterrows():
+
+            outliers.append({
+                "company_id": row["id"],
+                "company_name": row["company_name"],
+                "sector": sector,
+                "metric": col,
+                "z_score": round(float(z.loc[row.name]),2)
+            })
+
+pd.DataFrame(outliers).to_csv(
+    os.path.join(
+        OUTPUT_DIR,
+        "outlier_report.csv"
+    ),
+    index=False
+)
+
+# -----------------------------
+# Portfolio Statistics
+# -----------------------------
+stats = []
+
+for col in features:
+
+    s = cluster_df[col]
+
+    stats.append({
+        "Metric": col,
+        "P10": s.quantile(0.10),
+        "P25": s.quantile(0.25),
+        "P50": s.quantile(0.50),
+        "P75": s.quantile(0.75),
+        "P90": s.quantile(0.90),
+        "Mean": s.mean(),
+        "Std": s.std()
+    })
+
+pd.DataFrame(stats).round(2).to_csv(
+    os.path.join(
+        OUTPUT_DIR,
+        "portfolio_stats.csv"
+    ),
+    index=False
+)

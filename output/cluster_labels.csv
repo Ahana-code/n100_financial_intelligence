@@ -1,0 +1,101 @@
+company_id,cluster_id,cluster_name,distance_from_centroid
+ABB,1,High Growth,1.2018
+ADANIENSOL,1,High Growth,1.3404
+ADANIENT,1,High Growth,1.2663
+ADANIGREEN,2,Value Picks,2.3837
+ADANIPORTS,3,Turnaround / Risk,1.1831
+ADANIPOWER,0,Stable Compounders,0.8085
+AMBUJACEM,1,High Growth,1.0059
+APOLLOHOSP,1,High Growth,0.5694
+ASIANPAINT,1,High Growth,1.0197
+ATGL,1,High Growth,1.2507
+AXISBANK,2,Value Picks,1.002
+BAJAJ-AUTO,1,High Growth,0.8198
+BAJAJFINSV,2,Value Picks,0.9962
+BAJAJHLDNG,3,Turnaround / Risk,2.1447
+BAJFINANCE,2,Value Picks,1.3882
+BANKBARODA,2,Value Picks,1.7064
+BEL,1,High Growth,0.8711
+BHARTIARTL,3,Turnaround / Risk,1.4412
+BHEL,1,High Growth,2.1803
+BOSCHLTD,1,High Growth,0.6261
+BPCL,0,Stable Compounders,1.6009
+BRITANNIA,0,Stable Compounders,0.5017
+CANBK,2,Value Picks,2.8937
+CHOLAFIN,2,Value Picks,0.641
+CIPLA,3,Turnaround / Risk,0.7305
+COALINDIA,0,Stable Compounders,1.9791
+DABUR,1,High Growth,0.7656
+DIVISLAB,1,High Growth,0.779
+DLF,1,High Growth,2.1618
+DMART,1,High Growth,1.4568
+DRREDDY,1,High Growth,0.6476
+EICHERMOT,1,High Growth,0.5993
+GAIL,1,High Growth,0.598
+GODREJCP,1,High Growth,1.1011
+GRASIM,1,High Growth,0.6513
+HAL,1,High Growth,0.9366
+HAVELLS,1,High Growth,1.103
+HCLTECH,1,High Growth,0.5862
+HDFCBANK,2,Value Picks,0.7413
+HDFCLIFE,3,Turnaround / Risk,1.7003
+HEROMOTOCO,3,Turnaround / Risk,1.7739
+HINDALCO,3,Turnaround / Risk,0.7298
+HINDUNILVR,3,Turnaround / Risk,0.7613
+ICICIBANK,2,Value Picks,1.165
+ICICIGI,3,Turnaround / Risk,1.6963
+ICICIPRULI,3,Turnaround / Risk,1.0092
+INDIGO,3,Turnaround / Risk,1.7194
+INDUSINDBK,2,Value Picks,0.8625
+INFY,1,High Growth,1.0662
+IOC,1,High Growth,1.7686
+IRCTC,0,Stable Compounders,1.6294
+IRFC,2,Value Picks,2.2405
+ITC,1,High Growth,1.2571
+JINDALSTEL,1,High Growth,1.8768
+JIOFIN,3,Turnaround / Risk,0.9839
+JSWENERGY,1,High Growth,1.3851
+JSWSTEEL,1,High Growth,1.4104
+KOTAKBANK,3,Turnaround / Risk,2.2386
+LICI,0,Stable Compounders,0.9468
+LODHA,1,High Growth,1.6693
+LT,1,High Growth,0.486
+LTIM,1,High Growth,2.5981
+M&M,1,High Growth,0.7205
+MARUTI,1,High Growth,0.4664
+MOTHERSON,1,High Growth,0.6113
+NAUKRI,1,High Growth,1.1948
+NESTLEIND,0,Stable Compounders,4.5331
+NHPC,1,High Growth,1.6449
+NTPC,1,High Growth,0.5038
+ONGC,1,High Growth,0.6195
+PFC,2,Value Picks,1.4161
+PIDILITIND,1,High Growth,0.8058
+PNB,1,High Growth,1.2971
+POWERGRID,3,Turnaround / Risk,1.2935
+RECLTD,3,Turnaround / Risk,1.999
+RELIANCE,1,High Growth,1.0096
+SBILIFE,1,High Growth,1.7953
+SBIN,1,High Growth,1.4032
+SHREECEM,1,High Growth,0.4829
+SHRIRAMFIN,2,Value Picks,1.3659
+SIEMENS,1,High Growth,0.7577
+SUNPHARMA,1,High Growth,1.5882
+TATACONSUM,1,High Growth,2.6425
+TATAMOTORS,0,Stable Compounders,1.2835
+TATAPOWER,1,High Growth,0.834
+TATASTEEL,1,High Growth,1.52
+TCS,1,High Growth,1.0804
+TECHM,1,High Growth,0.9101
+TITAN,1,High Growth,1.7663
+TORNTPHARM,1,High Growth,0.8212
+TRENT,4,Defensive,0.0
+TVSMOTOR,1,High Growth,1.1955
+ULTRACEMCO,1,High Growth,0.2682
+UNIONBANK,2,Value Picks,2.3532
+UNITDSPR,1,High Growth,1.1624
+VBL,1,High Growth,1.7737
+VEDL,1,High Growth,0.545
+WIPRO,1,High Growth,0.5615
+ZOMATO,2,Value Picks,4.6671
+ZYDUSLIFE,1,High Growth,0.4627

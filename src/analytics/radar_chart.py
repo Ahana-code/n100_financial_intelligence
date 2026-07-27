@@ -8,10 +8,15 @@ os.makedirs("reports/radar_charts", exist_ok=True)
 
 conn = sqlite3.connect("db/nifty100.db")
 
-df = pd.read_sql(
-    "SELECT * FROM financial_ratios LIMIT 20",
-    conn
+df = pd.read_sql("""
+SELECT *
+FROM financial_ratios fr
+WHERE year = (
+    SELECT MAX(year)
+    FROM financial_ratios fr2
+    WHERE fr2.company_id = fr.company_id
 )
+""", conn)
 
 conn.close()
 
